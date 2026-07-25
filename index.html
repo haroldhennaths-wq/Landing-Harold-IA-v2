@@ -1401,13 +1401,4 @@ document.querySelectorAll('.tl-step').forEach(el=>tlObserver.observe(el));
       ctx.arc(cx + p.sx, cy + p.sy, size, 0, Math.PI*2);
       ctx.fill();
     }
-    ctx.shadowBlur = 0;
-
-    requestAnimationFrame(frame);
-  }
-  requestAnimationFrame(frame);
-  } catch(err) { console.error("Widget error:", err); }
-})();
-</script>
-</body>
-</html>
+  
